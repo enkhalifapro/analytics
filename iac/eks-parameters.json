@@ -1,0 +1,14 @@
+[
+  {
+    "ParameterKey": "ClusterName",
+    "ParameterValue": "KH-eks"
+  },
+  {
+    "ParameterKey": "NodeInstanceType",
+    "ParameterValue": "t3.medium"
+  },
+  {
+    "ParameterKey": "KeyName",
+    "ParameterValue": "kh-key"
+  }
+]
