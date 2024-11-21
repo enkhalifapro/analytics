@@ -10,9 +10,5 @@
   {
     "ParameterKey": "KeyName",
     "ParameterValue": "kh-key"
-  },
-  {
-    "ParameterKey": "DiskSize",
-    "ParameterValue": "20"
   }
 ]
