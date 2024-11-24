@@ -9,7 +9,7 @@ phases:
     commands:
       - echo Starting build at `date`
       - echo Building the Docker image...
-      - docker build -t uda-analytics:$IMAGE_TAG ./analytics/.
+      - docker build -t uda-analytics:$IMAGE_TAG ./analytics/
       - docker tag $IMAGE_REPO_NAME:$IMAGE_TAG 952662370353.dkr.ecr.us-east-1.amazonaws.com/uda-analytics:$IMAGE_TAG
   post_build:
     commands:
