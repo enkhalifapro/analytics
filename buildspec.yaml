@@ -10,7 +10,7 @@ phases:
       - echo Starting build at `date`
       - echo Building the Docker image...
       - docker build -t uda-analytics:latest -f ./analytics/Dockerfile ./analytics
-      - docker tag $IMAGE_REPO_NAME:latest 952662370353.dkr.ecr.us-east-1.amazonaws.com/uda-analytics:latest
+      - docker tag uda-analytics:latest 952662370353.dkr.ecr.us-east-1.amazonaws.com/uda-analytics:latest
   post_build:
     commands:
       - echo Completed build at `date`
